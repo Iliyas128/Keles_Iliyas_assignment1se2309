@@ -20,10 +20,9 @@ public class Shape {
         for (int i = 0; i < cont.size()-1; i++) {
             Point ran = cont.get(i+1);
         per = per + cont.get(i).distance(ran);
-            System.out.println(cont.get(i).distance(ran));}
+        }
         Point contr = cont.get(cont.size()-1);
         per =per + cont.get(0).distance(contr);
-        System.out.println(cont.get(0).distance(contr));
     return per;}
 
 
